@@ -1,0 +1,21 @@
+{
+  "name": "Desktop Buddy (Ext)",
+  "description": "A browser extension to interact with desktop buddy",
+  "version": "0.1",
+  "permissions": [
+    "tabs", "webRequest", "*://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "manifest_version": 2
+}

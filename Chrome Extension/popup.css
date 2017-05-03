@@ -1,0 +1,40 @@
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
+
+    button:first-child {
+      margin-top: 0px;
+    }
+
+    button {
+      cursor: pointer;
+      text-align: center;
+      padding: 1px 3px;
+      font-family: sans-serif;
+      font-size: 0.8em;
+      width: 100px;
+      margin-top: 1px;
+      background: #cccccc;
+    }
+    div:hover {
+      background: #aaaaaa;
+    }
+    #one {
+      border: 1px solid red;
+      color: red;
+    }
+    #two {
+      border: 1px solid blue;
+      color: blue;
+    }
+    #three {
+      border: 1px solid green;
+      color: green;
+    }
+    #four {
+      border: 1px solid yellow;
+      color: yellow;
+    }
